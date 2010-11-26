@@ -91,6 +91,12 @@ class LinkedInProfile {
 	public $interests = '';
 	
 	/**
+	 * Honors
+	 * @var string
+	 */
+	public $honors = '';
+	
+	/**
 	 * Photo
 	 * @var string
 	 */
@@ -185,7 +191,8 @@ class LinkedInProfile {
 				array('p', 'locality', 'current_locality'),
 				array('p', 'skills', 'skills'),
 				array('p', 'summary', 'summary'),
-				array('p', 'interests', 'interests')
+				array('p', 'interests', 'interests'),
+				array('p', 'honors', 'honors')
 			);
 			
 			foreach($elements as $element) {
